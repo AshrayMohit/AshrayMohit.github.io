@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ashray Mohit — computational fluid dynamics, turbulent reacting flows, and OpenFOAM research.">
+  <meta name="theme-color" content="#091513">
+  <title>Ashray Mohit — CFD & Reacting Flows</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="wordmark" href="#top" aria-label="Ashray Mohit, home">
+      <span class="wordmark-mark" aria-hidden="true">AM</span>
+      <span class="wordmark-text">Ashray Mohit</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+      <span class="sr-only">Toggle navigation</span>
+      <span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-nav>
+      <a href="#research">Research</a>
+      <a href="#work">Selected work</a>
+      <a href="#contact">About</a>
+    </nav>
+
+    <a class="header-cta" href="mailto:ashraym@umich.edu">Get in touch <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> Ph.D. Candidate · University of Michigan</div>
+        <h1>Resolving the physics<br>inside <em>reacting flows.</em></h1>
+        <p class="hero-lede">Using large-eddy simulation and custom OpenFOAM tools, I study how turbulence, mixing, and chemistry govern flame stability, emissions, and transport in complex reacting systems.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="https://github.com/AshrayMohit" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="https://www.linkedin.com/in/ashray-mohit/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="/assets/Ashray_Mohit_CV.pdf" target="_blank">CV <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="flow-card reveal" aria-label="Animated turbulent reacting jet visualization">
+        <canvas id="flow-canvas" aria-hidden="true"></canvas>
+        <div class="flow-label flow-label-top">
+          <span>LES</span>
+          <span class="live-dot">Live flow field</span>
+        </div>
+        <div class="flow-readout" aria-hidden="true">
+          <div><span>D</span><strong>7.62 cm</strong></div>
+          <div><span>U<sub>c</sub>/U<sub>j</sub></span><strong>3.0</strong></div>
+          <div><span>I</span><strong>10%</strong></div>
+        </div>
+        <p class="flow-caption">A living sketch of a reacting jet in crossflow—the canonical problem at the center of my doctoral research.</p>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <span>Scroll to explore</span>
+        <i></i>
+      </div>
+    </section>
+
+    <section class="section research-section" id="research">
+      <div class="section-heading reveal">
+        <p class="section-number">01 / Research</p>
+        <h2>From first principles<br>to predictive tools.</h2>
+        <p>My work connects fundamental transport, turbulence, and chemical kinetics with practical questions in emissions, energy, and high-performance scientific computing.</p>
+      </div>
+
+      <div class="research-list">
+        <article class="research-item reveal">
+          <span class="research-index">01</span>
+          <div>
+            <p class="research-kicker">Combustion</p>
+            <h3>Turbulent reacting flows</h3>
+            <p>Large-eddy simulation of non-assisted methane flares in crosswind, with a focus on turbulence–chemistry interaction, flame stability, and combustion efficiency.</p>
+          </div>
+          <div class="research-tags" aria-label="Methods">
+            <span>LES</span><span>FPVA</span><span>Methane</span>
+          </div>
+        </article>
+
+        <article class="research-item reveal">
+          <span class="research-index">02</span>
+          <div>
+            <p class="research-kicker">Scientific computing</p>
+            <h3>OpenFOAM solver development</h3>
+            <p>Custom low-Mach and compressible reacting-flow solvers, kinetic-energy-preserving numerics, detailed chemistry, and scalable workflows for large simulations.</p>
+          </div>
+          <div class="research-tags" aria-label="Methods">
+            <span>C++</span><span>OpenFOAM</span><span>HPC</span>
+          </div>
+        </article>
+
+        <article class="research-item reveal">
+          <span class="research-index">03</span>
+          <div>
+            <p class="research-kicker">Multiphysics</p>
+            <h3>Thermal-fluid systems</h3>
+            <p>Simulation of micro-combustors, particle-resolved transport, adsorption, and coupled heat and mass transfer across scales.</p>
+          </div>
+          <div class="research-tags" aria-label="Methods">
+            <span>DNS</span><span>Heat transfer</span><span>Transport</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="visual-stories reveal" aria-label="Research simulation media">
+        <div class="visual-heading">
+          <p class="section-number">Research media</p>
+          <h3>Flow physics, in motion and at scale.</h3>
+          <p>Selected results from flare combustion, compressible micro-combustion, coherent-structure analysis, and particle-resolved transport.</p>
+        </div>
+
+        <div class="gallery-toolbar gallery-toolbar-first">
+          <span>Simulation films</span>
+          <div class="gallery-controls" aria-label="Simulation video controls">
+            <button type="button" data-gallery-target="video-gallery" data-gallery-direction="-1" aria-label="Previous simulation video">←</button>
+            <button type="button" data-gallery-target="video-gallery" data-gallery-direction="1" aria-label="Next simulation video">→</button>
+          </div>
+        </div>
+
+        <div class="scroll-gallery media-video-grid" id="video-gallery">
+          <figure class="media-card video-card">
+            <div class="media-frame">
+              <video autoplay muted loop playsinline controls preload="metadata" poster="/assets/media/vorticity-dilatation-temperature-poster.jpg" aria-label="Animated vorticity, dilatation, and temperature contours in a reacting combustor">
+                <source src="/assets/media/vorticity-dilatation-temperature.mp4" type="video/mp4">
+                Your browser does not support embedded video.
+              </video>
+              <span class="media-badge">10 s loop</span>
+            </div>
+            <figcaption class="media-caption">
+              <span>01 / Reacting flow</span>
+              <div><strong>Vorticity, dilatation &amp; temperature</strong><p>Coupled field evolution through the combustor and downstream channel.</p></div>
+            </figcaption>
+          </figure>
+          <figure class="media-card video-card">
+            <div class="media-frame">
+              <video autoplay muted loop playsinline controls preload="metadata" poster="/assets/media/microcombustor-schlieren-poster.jpg" aria-label="Animated numerical schlieren of a methane–oxygen micro-combustor simulation">
+                <source src="/assets/media/microcombustor-schlieren.mp4" type="video/mp4">
+                Your browser does not support embedded video.
+              </video>
+              <span class="media-badge">10.6 s loop</span>
+            </div>
+            <figcaption class="media-caption">
+              <span>02 / Compressible flow</span>
+              <div><strong>Numerical schlieren</strong><p>Density-gradient structures and wave transport in a methane–oxygen micro-combustor.</p></div>
+            </figcaption>
+          </figure>
+          <figure class="media-card video-card">
+            <div class="media-frame">
+              <video autoplay muted loop playsinline controls preload="metadata" poster="/assets/media/packed-bed-transport-poster.jpg" aria-label="Animated particle-resolved transport through a packed bed">
+                <source src="/assets/media/packed-bed-transport.mp4" type="video/mp4">
+                Your browser does not support embedded video.
+              </video>
+              <span class="media-badge">4.3 s loop</span>
+            </div>
+            <figcaption class="media-caption">
+              <span>03 / Multiphysics</span>
+              <div><strong>Particle-resolved packed-bed transport</strong><p>Transient species transport through a resolved assembly of adsorbing particles.</p></div>
+            </figcaption>
+          </figure>
+          <figure class="media-card video-card media-card-dark">
+            <div class="media-frame">
+              <video autoplay muted loop playsinline controls preload="metadata" poster="/assets/media/flare-qcriterion-poster.jpg" aria-label="Animated Q-criterion structures in a turbulent flare plume">
+                <source src="/assets/media/flare-qcriterion.mp4" type="video/mp4">
+                Your browser does not support embedded video.
+              </video>
+              <span class="media-badge">4 s loop</span>
+            </div>
+            <figcaption class="media-caption">
+              <span>04 / Coherent structures</span>
+              <div><strong>Q-criterion in a flare plume</strong><p>Resolved vortical structures reveal the organization and breakup of the turbulent plume.</p></div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="media-subheading gallery-toolbar">
+          <div>
+            <span>Selected figures</span>
+            <p>Instantaneous flame structure, blowout behavior, and predictive scaling across the flare operating envelope.</p>
+          </div>
+          <div class="gallery-controls" aria-label="Research figure controls">
+            <button type="button" data-gallery-target="figure-gallery" data-gallery-direction="-1" aria-label="Previous research figure">←</button>
+            <button type="button" data-gallery-target="figure-gallery" data-gallery-direction="1" aria-label="Next research figure">→</button>
+          </div>
+        </div>
+
+        <div class="scroll-gallery media-figure-grid" id="figure-gallery">
+          <figure class="figure-card">
+            <div class="media-frame"><img src="/assets/media/nozzle-temperature-comparison.png" alt="Temperature isosurfaces comparing circle, diamond, square, HARE, and LARE flare nozzles" loading="lazy"></div>
+            <figcaption><strong>Nozzle geometry and flame structure</strong><span>Circle · Diamond · Square · HARE · LARE</span></figcaption>
+          </figure>
+          <figure class="figure-card">
+            <div class="media-frame"><img src="/assets/media/blowout-sequence.png" alt="Temperature isosurfaces showing blowout progression at zero, two, four, and eight seconds for four nozzle geometries" loading="lazy"></div>
+            <figcaption><strong>Geometry-dependent blowout progression</strong><span>Transient temperature field · t = 0–8 s</span></figcaption>
+          </figure>
+          <figure class="figure-card">
+            <div class="media-frame"><img src="/assets/media/perforated-flare.png" alt="Temperature visualization around a perforated flare geometry" loading="lazy"></div>
+            <figcaption><strong>Perforated flare configuration</strong><span>Three-dimensional reacting-flow structure</span></figcaption>
+          </figure>
+          <figure class="figure-card">
+            <div class="media-frame"><img src="/assets/media/perforated-design-comparison.png" alt="Temperature fields comparing a baseline perforated flare and ten perforation designs" loading="lazy"></div>
+            <figcaption><strong>Perforation-design comparison</strong><span>Baseline and D1–D10 configurations</span></figcaption>
+          </figure>
+          <figure class="figure-card">
+            <div class="media-frame"><img src="/assets/media/inefficiency-correlation.png" alt="Combustion inefficiency plotted against an algebraic predictive model with points colored by turbulence intensity" loading="lazy"></div>
+            <figcaption><strong>Predictive combustion-inefficiency scaling</strong><span>LES and experiments · turbulence-intensity dependence</span></figcaption>
+          </figure>
+          <figure class="figure-card">
+            <div class="media-frame"><img src="/assets/media/combustion-efficiency-profile.png" alt="Combustion efficiency as a function of downstream distance for four crosswind-to-jet velocity ratios" loading="lazy"></div>
+            <figcaption><strong>Downstream combustion efficiency</strong><span>Velocity ratios Uc/Uj = 1–4</span></figcaption>
+          </figure>
+          <figure class="figure-card">
+            <div class="media-frame"><img src="/assets/media/turbulence-flame-shape.png" alt="Flame temperature isosurfaces comparing crosswind velocity ratio and turbulence intensity" loading="lazy"></div>
+            <figcaption><strong>Crosswind ratio and turbulence intensity</strong><span>Instantaneous 800 K flame boundary · D = 7.62 cm</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-heading work-heading reveal">
+        <div>
+          <p class="section-number">02 / Selected work</p>
+          <h2>Research in motion.</h2>
+        </div>
+        <p>A growing archive of manuscripts, research software, and talks. The content lives in one editable data file, so this page can evolve with the work.</p>
+      </div>
+
+      <div class="work-tabs reveal" role="tablist" aria-label="Selected work categories">
+        <button type="button" role="tab" aria-selected="true" aria-controls="work-grid" data-filter="publications">Publications <span data-count="publications">0</span></button>
+        <button type="button" role="tab" aria-selected="false" aria-controls="work-grid" data-filter="software">Software <span data-count="software">0</span></button>
+        <button type="button" role="tab" aria-selected="false" aria-controls="work-grid" data-filter="presentations">Presentations <span data-count="presentations">0</span></button>
+      </div>
+
+      <div class="work-grid" id="work-grid" aria-live="polite"></div>
+      <noscript><p class="noscript-message">Enable JavaScript to view the selected-work archive.</p></noscript>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-copy reveal">
+        <p class="section-number">03 / About</p>
+        <h2>Building reliable simulations for difficult flows.</h2>
+        <p>I am a Ph.D. candidate in Mechanical Engineering at the University of Michigan, working at the intersection of computational fluid dynamics, turbulent combustion, and scientific software. I enjoy translating complex flow physics into models that are both rigorous and useful.</p>
+        <div class="contact-meta">
+          <div><span>Based in</span><strong>Ann Arbor, Michigan</strong></div>
+          <div><span>Research areas</span><strong>CFD · Combustion · HPC</strong></div>
+          <div><span>Education</span><strong>Ph.D. Mechanical Engineering · M.S. &amp; B.Tech. Aerospace Engineering</strong></div>
+          <div><span>Recognition</span><strong>2026 Towner Prize nominee · ACCESS allocation recipient</strong></div>
+        </div>
+        <a class="cv-link" href="/assets/Ashray_Mohit_CV.pdf" target="_blank">Read full curriculum vitae <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="contact-card contact-card-portrait reveal">
+        <img src="/assets/Ashray_Mohit_portrait.webp" alt="Portrait of Ashray Mohit" loading="lazy">
+        <p>Interested in collaborating?</p>
+        <a href="mailto:ashraym@umich.edu">ashraym@umich.edu <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span data-year></span> Ashray Mohit</p>
+    <p>Designed for clarity. Built to evolve.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
