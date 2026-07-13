@@ -101,9 +101,18 @@ const WORK = {
     {
       year: "2026",
       status: "Research code",
+      title: "Low-Mach variable density Flamelet Progress Variable Approach Solver",
+      description: "A custom OpenFOAM solver combining variable-density projection methods, kinetic-energy-preserving discretization, and FPVA.",
+      tags: [],
+      link: "",
+      linkLabel: "Repository in preparation",
+    },
+    {
+      year: "2026",
+      status: "Research code",
       title: "Low-Mach thickened-flame solver",
       description: "A custom OpenFOAM solver combining variable-density projection methods, kinetic-energy-preserving discretization, and dynamic thickened-flame modeling.",
-      tags: ["OpenFOAM", "C++", "Combustion"],
+      tags: [],
       link: "",
       linkLabel: "Repository in preparation",
       featured: true
@@ -113,16 +122,16 @@ const WORK = {
       status: "Solver development",
       title: "Compressible reacting-flow tools",
       description: "OpenFOAM extensions for detailed-chemistry methane–oxygen simulations, numerical schlieren analysis, and micro-combustor studies.",
-      tags: ["CFD", "HPC", "Chemistry"],
-      link: "https://github.com/AshrayMohit",
-      linkLabel: "View GitHub"
+      tags: [],
+      link: "",
+      linkLabel: "Repository in preparation"
     },
     {
       year: "2026",
       status: "Multiphysics",
       title: "Particle-resolved adsorption solver",
       description: "A coupled species, heat-transfer, and surface-sorption framework for direct simulation of gas transport through packed beds.",
-      tags: ["DNS", "Adsorption", "Transport"],
+      tags: [],
       link: "",
       linkLabel: "Repository in preparation"
     }
@@ -133,7 +142,7 @@ const WORK = {
       status: "Conference talk",
       title: "Comparison of the flamelet progress variable and thickened flame models for LES of turbulent combustion",
       description: "Central States Section of the Combustion Institute Spring Technical Meeting.",
-      tags: ["Central States", "Combustion"],
+      tags: [],
       link: "",
       linkLabel: "Slides available on request",
       featured: true
@@ -143,7 +152,7 @@ const WORK = {
       status: "AIChE Annual Meeting",
       title: "The impact of turbulence on adsorption in packed-bed reactors",
       description: "R. Grawe, A. Mohit, and J. Capecelatro.",
-      tags: ["AIChE", "Adsorption", "DNS"],
+      tags: [],
       link: "",
       linkLabel: "Conference presentation"
     },
@@ -152,7 +161,7 @@ const WORK = {
       status: "U.S. National Combustion Meeting",
       title: "Impact of crosswind turbulence on combustion performance in non-assist flares",
       description: "A. Mohit, J.E. Stolzman, M. Wooldridge, and J. Capecelatro.",
-      tags: ["Combustion Institute", "Crosswind", "Flares"],
+      tags: [],
       link: "",
       linkLabel: "Conference presentation"
     },
@@ -161,8 +170,8 @@ const WORK = {
       status: "APS Division of Fluid Dynamics",
       title: "The impact of nozzle shape on mixing, combustion efficiency, and flame blowout velocity",
       description: "A. Mohit, J.E. Stolzman, M. Wooldridge, and J. Capecelatro.",
-      tags: ["APS DFD", "Nozzle shape", "Blowout"],
-      link: "",
+      tags: [],
+      link: "https://ui.adsabs.harvard.edu/abs/2024APS..DFDL34005M/abstract",
       linkLabel: "Conference presentation"
     },
     {
@@ -170,7 +179,7 @@ const WORK = {
       status: "American Flame Research Committee",
       title: "Effects of crosswind turbulence on the combustion efficiency of non-assist waste gas flares",
       description: "A. Mohit, J.E. Stolzman, M. Wooldridge, and J. Capecelatro.",
-      tags: ["AFRC", "Turbulence", "Efficiency"],
+      tags: [],
       link: "https://afrc.net/papers/2024/1%20-%20Effects_of_crosswind_turbulence_on_the_combustion_efficiency_of_non_assist_waste_gas_flares_Mohit.pdf",
       linkLabel: "Read paper"
     },
@@ -179,7 +188,7 @@ const WORK = {
       status: "American Flame Research Committee",
       title: "Non-assisted flare performance at low-flow conditions",
       description: "J.E. Stolzman, A. Mohit, J. Capecelatro, and M. Wooldridge.",
-      tags: ["AFRC", "Low flow", "Flares"],
+      tags: [],
       link: "https://afrc.net/papers/2024/3%20-%20Non-assisted%20Flare%20Performance%20at%20Low-flow%20(100%20MSCFD)%20Conditions_%20Stolzman.pdf",
       linkLabel: "Read paper"
     },
@@ -188,7 +197,7 @@ const WORK = {
       status: "International Gas Union Conference",
       title: "New challenges in waste gas flaring in upstream oil and gas",
       description: "J.E. Stolzman, A. Mohit, J. Capecelatro, and M. Wooldridge.",
-      tags: ["IGU", "Waste gas", "Emissions"],
+      tags: [],
       link: "https://www.researchgate.net/profile/Jenna-Stolzman/publication/381343852_New_challenges_in_waste_gas_flaring_in_upstream_oil_and_gas/links/6669d8b685a4ee7261bf22fa/New-challenges-in-waste-gas-flaring-in-upstream-oil-and-gas.pdf",
       linkLabel: "Read paper"
     },
@@ -197,8 +206,8 @@ const WORK = {
       status: "APS Division of Fluid Dynamics",
       title: "Optimizing nozzle designs to improve upstream turbulent mixing and downstream combustion efficiency in flares",
       description: "A. Mohit, J.E. Stolzman, M. Wooldridge, and J. Capecelatro.",
-      tags: ["APS DFD", "Design", "Mixing"],
-      link: "",
+      tags: [],
+      link: "https://meetings.aps.org/Meeting/DFD23/Session/A40.7",
       linkLabel: "Conference presentation"
     }
   ]
