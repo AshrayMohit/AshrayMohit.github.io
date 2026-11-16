@@ -53,12 +53,12 @@ const WORK = {
     },
     {
       year: "2026",
-      status: "Combustion and Flame · In preparation",
+      status: "Combustion and Flame · Submitted",
       title: "Comparison of the flamelet progress variable and thickened flame models for LES of turbulent combustion",
       description: "A. Mohit, M. Wooldridge, and J. Capecelatro.",
       tags: [],
-      link: "",
-      linkLabel: "Manuscript in preparation"
+      link: "https://arxiv.org/pdf/2611.14726",
+      linkLabel: "Submitted, Preprint"
     },
     {
       year: "2026",
